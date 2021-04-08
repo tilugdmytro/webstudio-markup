@@ -1,0 +1,33 @@
+.navigation__logo {
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    animation-duration: 1000ms;
+
+    &_light-theme {
+        color: #000000;
+    }
+}
+
+.logo__accent-text {
+    color: var(--accent-color);
+}
+
+.footer__logo {
+    display: block;
+    margin-bottom: 20px;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    &_dark-theme {
+        color: #FFFFFF;
+    }
+}
