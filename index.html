@@ -27,6 +27,11 @@
                     </li>
                 </ul>
             </nav>
+            <button class="menu-btn" type="button" data-menu-button>
+                <svg class="menu__icon">
+                    <use href="./images/sprite.svg#menu-icon"></use>
+                </svg>
+            </button>
             <ul class="contacts__list list">
                 <li class="contacts__item">
                     <a class="contacts__link link" href="mailto:info@devstudio.com">
@@ -43,6 +48,46 @@
                         </svg>
                             +38 096 111 11 11
                     </a>
+                </li>
+            </ul>
+        </div>
+        <div class="mobile-menu" data-menu>
+            <button type="button" class="mobile-menu__close-btn" data-menu-button>
+                <svg class="mobile-menu__close-icon" data-menu-close width="18px" height="18px">
+                    <use href="./images/sprite.svg#close-icon"></use>
+                </svg>
+            </button>
+            <ul class="mobile-menu__navigation-list list">
+                <li class="mobile-menu__navigation-item">
+                    <a class="mobile-menu__navigation-link mobile-menu__navigation-link_current link" href="./index.html">Студия</a>
+                </li>
+                <li class="mobile-menu__navigation-item">
+                    <a class="mobile-menu__navigation-link link" href="./portfolio.html">Портфолио</a>
+                </li>
+                <li class="mobile-menu__navigation-item">
+                    <a class="mobile-menu__navigation-link link" href="">Контакты</a>
+                </li>
+            </ul>
+            <ul class="mobile-menu__contacts-list list">
+                <li class="mobile-menu__contacts-item">
+                    <a class="mobile-menu__tel-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
+                <li class="mobile-menu__contacts-item">
+                    <a class="mobile-menu__mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+            </ul>
+            <ul class="mobile-menu__socials-list list">
+                <li class="mobile-menu__socials-item">
+                    <a class="mobile-menu__socials-link link" href="">Instagram</a>
+                </li>
+                <li class="mobile-menu__socials-item">
+                    <a class="mobile-menu__socials-link link" href="">Twitter</a>
+                </li>
+                <li class="mobile-menu__socials-item">
+                    <a class="mobile-menu__socials-link link" href="">Facebook</a>
+                </li>
+                <li class="mobile-menu__socials-item">
+                    <a class="mobile-menu__socials-link link" href="">LinkedIn</a>
                 </li>
             </ul>
         </div>
@@ -101,7 +146,7 @@
             </div>
         </section>
         <!--Activity-->
-        <section class="activity">
+        <!-- <section class="activity">
             <div class="container">
                 <h2 class="activity__title title">Чем мы занимаемся</h2>
                 <ul class="activity__list list">
@@ -125,9 +170,9 @@
                     </li>      
                 </ul>
             </div>
-        </section>
+        </section> -->
         <!--Team-->
-        <section class="team">
+        <!-- <section class="team">
             <div class="container">
                 <h2 class="team__title title">Наша команда</h2>
                 <ul class="team__list list">
@@ -281,9 +326,9 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
          <!--Clients-->
-         <section class="clients">
+         <!-- <section class="clients">
             <div class="container">
                 <h2 class="clients__title title">Постоянные клиенты</h2>
                 <ul class="clients__list list">
@@ -331,10 +376,10 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
     </main>
     <!--Footer-->
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="footer__container container">
             <div class="footer-address">
             <a class="footer__logo footer__logo_dark-theme link animate__lightSpeedInLeft" href=""> <span class="logo__accent-text">Web</span>Studio</a>
@@ -397,7 +442,7 @@
                 </form>
             </div>
         </div>
-    </footer>
+    </footer> -->
     <!--Modal backdrop-->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal-form">
@@ -438,6 +483,7 @@
             </form>
         </div>
     </div>
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
 </body>
 </html>
