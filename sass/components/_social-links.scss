@@ -1,6 +1,10 @@
 .social__list {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.social__item:not(:last-child) {
+    margin-right: 10px;
 }
 
 .social__link {
@@ -24,10 +28,6 @@
     width: 20px;
     height: 20px;
     fill: currentColor;   
-}
-
-.footer-social {
-    margin-right: 93px;
 }
 
 .footer-social__text {

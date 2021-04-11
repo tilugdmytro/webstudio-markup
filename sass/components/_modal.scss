@@ -39,6 +39,13 @@
     transform: scale(0) rotate(90deg);
 }
 
+@media screen and (min-width: 768px) {
+    .modal-form {
+        width: 450px;
+        height: 609px;
+    }
+}
+
 @media screen and (min-width: 1200px) {
     .modal-form {
         width: 528px;
