@@ -501,6 +501,9 @@ img {
 }
 
 .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: fixed;
   top: 0;
   left: 50%;
@@ -533,10 +536,6 @@ img {
 
 .mobile-menu__close-icon {
   fill: currentColor;
-}
-
-.mobile-menu__navigation-list {
-  margin-bottom: 302px;
 }
 
 .mobile-menu__navigation-link {
