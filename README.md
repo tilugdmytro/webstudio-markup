@@ -1,2 +1,1 @@
-# goit-markup-hw-08
-Homework #8
+WEBSTUDIO is a website with an adaptive layout. Personal project on HTML and SASS
